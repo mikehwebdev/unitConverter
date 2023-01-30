@@ -1,0 +1,34 @@
+.header {
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "h h h"
+    ". i ."
+    ;
+}
+
+.header > h1 {
+    grid-area: h;
+    display: grid;
+    place-items: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.header > input {
+    align-self: start;
+    justify-self: center;
+    grid-area: i;
+    border: 2px solid #B295FF;
+    background-color: transparent;
+    width: 117px;
+    height: 83px;
+    font-size: 58px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}

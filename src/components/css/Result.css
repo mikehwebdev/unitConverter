@@ -1,0 +1,20 @@
+
+.result {
+    width: 500px;
+    height: 109px;
+    margin: 25px 25px 0 25px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: #fff; 
+    text-align: center;
+}
+
+.result > h2 {
+    color:#5A537B;
+    margin: 0;
+}
+
+.result > p {
+    color: #353535;
+}
